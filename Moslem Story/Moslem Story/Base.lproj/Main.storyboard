@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MarkerFeltThin.ttf">
+            <string>MarkerFelt-Thin</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="sK9-Gj-Wdi">
+            <objects>
+                <viewController id="gd0-gL-bE5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6LE-Bn-WWK"/>
+                        <viewControllerLayoutGuide type="bottom" id="MJ6-Tz-6cz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l0t-XS-Bjd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="lgR-fr-ibY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p6o-Z7-XPe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Dosen Dan Mahasiswa" id="en8-lw-Gl9">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="F9O-LP-Ls5">
+                                            <connections>
+                                                <segue destination="BXT-5Y-8gs" kind="modal" id="nac-sa-5YA"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWq-V0-0uK">
+                                <rect key="frame" x="4" y="54" width="359" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Dikisahkan oleh Syaikh Dr. Muhammad al-Arifi
+Aku pernah diundang di malam Ramadhan dua tahun yang lalu untuk menjadi pembicara dalam satu siaran live di salah satu siaran televisi.                            Siaran kala itu berkisar tentang ibadah pada bulan Ramadhan, siaran itu dilakukan di Makkah al-Mukarramah pada satu kamar di salah satu hotel yang bisa melongok di atas Masjidil al-Haram. Kala itu, kami berbicara tentang Ramadhan. Para pemirsa televisi bisa melihat dari sela-sela jendela kamar di belakang kami pemandangan orang-orang yang umrah dan thawaf secara langsung.
+Kala itu pemandangannya sungguh mengagumkan dan mengharukan, membuat pembicaraan pun semakin berkesan. Hingga pembawa acara menjadi lembut hatinya, dan menangis di tengah halaqah itu. Sungguh suasana itu adalah suasana keimanan, dan tidak merusak suasana itu kecuali salah satu Kameramen. Dia memegang kamera dengan satu tangan dan tangan yang kedua memegang “Tuhan Sembilan Senti” menurut istilah Penyair Taufik Ismail , yaitu rokok” (tambahan dari redaksi). Seakan-akan tidak ada waktu tersia-siakan dari malam bulan Ramadhan kecuali dia kenyangkan paru-parunya dengan asap rokok.
+Hal ini banyak menggangguku. Penghisap rokok itu benar-benar mencekikku, tetapi harus bersabar, karena itu adalah siaran langsung, dan tidak ada alasan, kecuali terpaksa melaluinya.
+Berlalulah satu jam penuh, dan berakhirlah kajian itu dengan salam.
+Kameramen itupun mendatangiku sementara rokok masih ada di tangannya sembari dia mengucapkan terima kasih dan memuji. Maka kukeraskan genggaman tanganku dan kukatakan, “Anda juga, saya berterima kasih atas keikutsertaan Anda dalam menyunting acara keagamaan ini. Saya memiliki satu kalimat, barangkali Anda mau menerimanya’.
+Dia pun menjawab,’Silahkan…..silahkan.”
+Kukatakan, ‘Rokok dan siga…”(maksudku sigaret), namun dia memutus pembicaraanku seraya berkata, ‘ Jangan menasehatiku…demi Allah, tidak ada faidahnya wahai syaikh.’
+Kukatakan, ‘Baik, dengarkan saya..Anda tahu bahwa rokok itu haram, dan Allah berfirman…’
+Dia pun memotong pembicaraanku sekali lagi,’ wahai Syaikh, janganlah menyianyiakan waktu Anda… saya telah merokok selama 40 tahun… rokok telah mengalir dalam urat nadi saya… tidak ada faidah…selain Anda lebih pandai lagi..!!
+Kukatakan,’Apa yang ada faidahnya?’
+Dia pun merasa tidak enak dariku lalu berkata, ‘ Do’akanlah saya…do’akalah saya.’
+Maka akupun memegang tangannya seraya berkata,’ Mari bersama saya.’
+Kukatakan,’ Mari melihat kepada Ka’bah.’Maka kamipun berdiri di sisi jendela yang bisa melongok di atas al-Haram. Dan ternyata setiap jengkal dipenuhi dengan manusia. Antara yang ruku’, sujud, yang sedang umrah, dan sedang menangis.
+Sungguh pemandangan yang sangat mengesankan.
+Kukatakan, ‘Apakah Anda melihat mereka?’
+Dia menjawab, ‘Ya.’
+Kukatakan, ‘Mereka datang dari setiap tempat, yang putih, yang hitam…orang Arab dan’ajam…yang kaya dan miskin…semuanya berdo’a kepada Allah agar menerima ibadah mereka dan mengampuni mereka…’
+Dia menjawab,’Benar…benar…’
+Kukatakan, ‘Tidakkah Anda menginginkan Allah memberikan kepada Anda apa yang Dia berikan kepada mereka?’
+Di menjawab, ’Ya…tentu saja.’
+Kukatakan, ‘Angkat tangan Anda, saya akan berdo’a untuk Anda… dan aminilah do’a saya’.
+Akupun mengangkat kedua tanganku lalu kukatakan, ‘ Ya Allah, ampunilah dia…’
+Dia berkata,’ Aamiin.’
+Aku berdo’a, ‘Ya Allah, angkatlah derajatnya, dan kumpulkanlah dia bersama dengan orang-orang yang dikasihinya di dalam sorga…ya Allah…’
+Dan tidak henti-hentinya aku berdo’a hingga hatinya lembut dan menangis…seraya mengulang-ulang, ‘Aamiin..aamiin…’
+Tatkala aku ingin menutup do’a kukatakan, ‘ Ya Allah, jika dia meninggalkan rokok, maka kabulkanlah do’a ini, jika tidak, maka haramkan dia terkabulkannya do’a ini’.
+Maka pecahlah tangisan laki-laki tersebut, sembari menutupi wajahnya dengan kedua tangannya dan keluar dari kamar tersebut.
+Berbulan-bulan telah berlalu, akupun diundang lagi di studio televisi tersebut untuk melakukan siaran langsung.
+Saat aku masuk ke bangunan tersebut ada seorang laki-laki yang tampak taat beragama menemuiku, kemudian dia mengucapkan salam dengan hangat, lalu mencium kepalaku, dan merendah meraih kedua tanganku untuk menciumnya, dan sungguh dia sangat terkesan.
+Kukatakan kepadanya, ‘Mudah-mudahan Allah mensyukuri kelembutan dan adab Anda…saya sungguh menghargai kecintaan Anda…akan tetapi maaf, saya belum mengenal Anda…’
+Maka dia berkata, ‘ Apakah anda masih ingat dengan kameramen yang telah Anda nasehati untuk meninggalkan rokok dua tahun yang lalu,’
+Kujawab, ‘ Ya…’
+Dia berkata, ‘Sayalah dia…demi Allah wahai Syaikh…sesungguhnya aku tidak pernah meletakkan rokok di mulutku sejak saat itu. ‘ Alhamdulillahi Rabbil ‘alamiin.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WKx-ZD-ryd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="-721.88905547226398"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="um7-Hq-TKn">
+            <objects>
+                <viewController id="Nya-JG-v4q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ExC-bP-hhV"/>
+                        <viewControllerLayoutGuide type="bottom" id="HDF-LI-XrL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZSf-v0-0PJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="U2f-hb-dcb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8rd-93-s2z">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Kisah Seorang Pemabuk" id="Qeq-5a-8f3">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="vrY-Wb-mN0">
+                                            <connections>
+                                                <segue destination="BXT-5Y-8gs" kind="modal" id="9xO-Es-nWJ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygu-6P-z6e">
+                                <rect key="frame" x="8" y="44" width="359" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Bismillahir-Rahmaanir-Rahim ... Petang hampir sirna. Berganti serinai malam yang perlahan jatuh di altar langit. Adzan Maghrib baru berkumandang di sejumlah masjid dan mushala. Tanda bulan suci Ramadhan baru berakhir dan malam lebaran akhirnya tiba. Gema takbir membahana dan tahmid menggema dari segenap penjuru kampung. Namun, suara takbir dan tahmid itu serasa tak menyentuh kalbu Sumadi (36 tahun, bukan nama sebenarnya).
+Ia sepertinya tak peduli dengan hari lebaran, hari di mana umat Islam dianugerahi kemenangan usai menunaikan ibadah puasa selama sebulan. Ia hanya duduk diam, tercenung di teras rumah dengan memegang botol minuman keras. Pandangannya kosong menatap langit. Sorot matanya menerawang jauh, seakan melihat dunia lain yang lebih menyenangkan.
+
+Di saat seluruh umat Islam bersuka cita menyambut hari kemenangan dengan takbir dan tahmid, lelaki itu meninggal dunia begitu mengenaskan. Lidahnya menjulur dan matanya melotot. Jenazahnya pun terus berbalik arah ketika akan dimakamkan.
+
+Melihat Sumadi duduk termangu seraya menenggak minuman keras, Surti (30 tahun, bukan nama sebenarnya), istri Sumadi hanya mengelus dada. Dia sempat menggeleng-gelengkan kepala, melihat ulah suaminya yang tak peduli dengan suara takbir yang berkumandang dari sejumah masjid dan mushala.
+Dia tak habis pikir dan terheran-heran kenapa suaminya masih terus menenggak minuman keras di malam Idul Fitri.
+
+“Mas, malam lebaran bukannya merayakan dengan tabiran kok malah minum!?” sungut istrinya
+“Kamu itu ngomong apa? Memangnya kenapa jika aku minum? Apa gak boleh?” protes Sumadi, enteng.
+“Mas semestinya pergi ke masjid, ikut takbiran, bukannya mabok...!”
+
+Sumadi diam saja, tidak menjawab. Otaknya seperti digelayuti hawa panas; akibat reaksi alkohol yang mengalir ke ubun-ubun. Melihat ulah Sumadi yang cuek dengan keadaan sekitar membuat Surti kesal dan kecewa.
+
+Apalagi, Sumadi sudah lama memiliki kebiasaan minum yang tak kunjung henti. Kendati demikian, Surti masih berharap agar suaminya di malam lebaran itu mau menghormati hari kemenangan umat Islam tersebut.
+Bahkan, tidak sedikit orang yang meneteskan air mata di malam lebaran, karena merasa sedih ditinggal pergi bulan suci Ramadhan, bulan yang penuh berkah dan maghfirah.
+Karena kesal, Surti akhirnya masuk ke dalam rumah. Sayang, protes diam Surti itu lagi-lagi tidak menghentikan kebiasaan buruk Sumadi. Ia justru merasa tidak ada lagi yang mengusik lagi. Ia kembali menenggak botol minuman keras yang ada di tangannya.
+
+Setelah itu, ia tersenyum seakan meraih kemenangan yang tiada tara karena merasa melayang dan terbang ke angkasa biru. Padahal kemenangan yang dicecap Sumadi itu adalah kemenangan semu.
+Setelah lama berjibaku dengan minuman keras, Sumadi seperti dicekam perasaan kesepian. Apalagi, ia sudah diprotes oleh Surti. Karena rasa sepi, sendiri dan sunyi itulah akhirnya ia memutuskan keluar rumah. Ia lalu berjalan dengan langkah sempoyongan, menyusuri jalan.
+
+Bau alkohol yang menyeruak dari mulutnya, bergumul dengan aroma bau tubuhnya yang tidak sedap. Sesekali ia terhuyung, hampir jatuh; tetapi kedua kakinya masih bisa meniti jalan dengan benar, tidak sampai terpeleset ke selokan jalanan.
+
+Sewaktu berjalan terhuyung-huyung itu, Sumadi sempat berpapasan dengan tetangga yang sudah kenal akrab dengannya. “Lebaran kok masih juga mabok? Nanti bisa ditarik malaikat loh...!” ujar sang tetangga, mengingatkan.
+
+Dasar Sumadi sudah gelap mata dan hatinya telah karat, ia justru menjawab sengit, “Halahhhh, malaikat apaan!”
+
+Tidak ada basa-basi untuk berhenti sejenak, saling menyapa dengan baik apalagi mengucap salam, Sumadi malah meneruskan jalannya yang goyah. Sementara, tetangganya yang tadi menyapa malah berjalan ke arah masjid.
+
+Di jalanan kecil dari rumahnya itu, Sumadi terus melangkah seperti kunang-kunang yang terbang tak tentu arah. Kendati demikian, Sumadi masih bisa menyusuri jalanan ke sebuah tempat, dimana dia dan teman-temannya biasa kumpul untuk nongkrong.
+
+Di tempat tongkrongan itu, ketiga temannya sudah lebih dulu datang dan menunggu kedatangan Sumadi. Tanpa banyak bicara, ia lalu mengambil papan dadu dan mereka pun langsung bermain dadu diselingi minum minuman keras.
+Lidah Menjulur dan Mata Melotot ...
+
+Gema takbir masih terus berkumandang, sesekali diiringi tabuhan bedug yang dipukul bertalu-talu, membuat suasana lebaran kian semarak. Tetapi, Sumadi dan ketiga temannya itu tidak peduli dengan gema takbir tersebut, mereka justru bermain dadu dan menenggak alkohol.
+
+Tiba-tiba, tepat menjelang Isya`, tubuh Sumadi gemetaran. Sebetulnya, ia ingin melanjutkan permainan dadu dan menenggak alkohol lagi. Tetapi, tubuhnya yang sudah dimasuki minuman sejak dari rumah seperti tidak kuat menanggung beban berat yang dipikulnya. Tanpa dinyana-nyana oleh ketiga temannya, ia tiba-tiba diterpa ketidakberdayaan dan lemah dalam seketika. Tubuh Sumadi gemetaran. Lidahnya menjulur-julur. Mata terbelalak.
+“Ah payah, kamu ini…baru minum segitu aja sudah mabok dan tidak kuat,“ ledek temannya, seraya menyenggol tubuh Sumadi. Tetapi, tubuh Sumadi sudah benar-benar lemas dan tidak berdaya, hingga ia tersungkur ke tanah.
+
+Teman-teman Sumadi masih merasa tidak percaya dengan apa yang terjadi dan bahkan menyangka bahwa Sumadi sedang berpura-pura mabuk.
+
+Tetapi Sumadi tetap diam tidak berkutik, apalagi bangkit lagi untuk bermain dadu. Sumadi tetap terkapar, tidak mampu bangun kembali. Berikutnya, ia malah kejang-kejang. Lidahnya menjulur, kedua matanya tiba-tiba melotot. Seseorang dari mereka kemudian memeriksa kondisi tubuh Sumadi, dan orang itu merasa bahwa tubuh Sumadi mengalami panas cukup tinggi.
+
+“Sumadi, ada apa denganmu?” tanya salah seorang temannya seraya mengguncang-guncang tubuh Sumadi yang sudah kaku. Sumadi nyaris tidak bergerak..
+
+Melihat tak ada tanda-tanda Sumadi bisa bangun, apalagi bangkit untuk berdiri, ketiganya kemudian membopong tubuh Sumadi untuk diantar ke rumah. Karena tidak ada tanda-tanda Sumadi kembali bernafas normal, akhirnya pihak keluarga melarikan Sumadi ke rumah sakit.
+
+Sayangnya, Sumadi tidak bisa diselamatkan. Di tengah perjalanan ke rumah sakit itu, Sumadi menghembuskan nafas terakhirnya. Sumadi tidak bisa bangun lagi untuk selama-lamanya.
+Sumadi, lelaki warga kampung Semangka (bukan nama sebenarnya), sejatinya bukan dikenal sebagai seorang pemabuk berat. Mengingat ia hanya seorang buruh bangunan dengan penghasilan yang tidak seberapa besar.
+
+Apalagi, dari hasil perkawinannya dengan Surti, keduanya melahirkan dua orang anak yang masih membutuhkan banyak biaya untuk sekolah.
+
+Tidak mustahil, jika kehidupan rumah tangga Sumadi tergolong biasa-biasa saja dan tidak ada hal yang mengagumkan. Mungkin, bisa dikata tergolong miskin. Sebagai buruh bangunan, tentunya tidak setiap hari Sumadi mendapat kontrak kerja sebagai buruh bangunan.
+
+Nahasnya, kemiskinan ini makin diperparah dengan kebiasaan minumnya. Sesuatua yang oleh agama harus dijauhi oleh siapapun tanpa pandang bulu.
+
+Firman Allah: “Hai orang-orang yang beriman, sesungguhnya (meminum) khamar, berjudi, (berkorban untuk) berhala, mengundi nasib dengan panah adalah termasuk perbuatan setan. Maka jauhilah perbuatan-perbuatan itu agar kamu mendapat keberuntungan.
+
+Sesungguhnya setan itu bermaksud hendak menimbulkan permusuhan dan kebencian di antara kamu lantaran (meminum) khamar dan berjudi itu, dan menghalangi kamu dari mengingat Allah dan shalat; maka berhentilah kamu (dari mengerjakan pekerjaan itu).” (QS. Al-Maidah [5]: 90-91)
+Kaki Terbalik ...
+
+Keesokan harinya, tepat di hari Idul Fitri, jenazah Sumadi dikebumikan. Pihak keluarga dirundung duka. Mereka tidak menyangka jika Sumadi harus meninggal di usia yang belum tergolong tua apalagi lanjut usia.
+Tidak mustahil, kalau meninggalnya Sumadi itu dianggap janggal karena ia meninggal tidak dalam kondisi normal, melainkan akibat minuman keras.
+
+Tapi, kejanggalan lain ternyata masih menghimpit prosesi pemakaman Sumadi dan itu terjadi ketika penggali kubur mengalami kesulitan saat menggali liang lahatnya. Sewaktu liang kubur Sumadi digali, tanah liang kuburnya dipenuhi akar-akar pohon.
+
+Padahal, di sekitar liang lahat Sumadi itu sama sekali tidak ada pohon besar. Akar-akar pohon yang cukup menyulitkan itu, akhirnya, membuat liang lahat Sumadi digali tidak cukup dalam.
+Cerita keanehan tidak berhenti di situ. Saat jenazahnya siap dimasukkan ke liang lahat, tiba-tiba kejadian aneh terjadi lagi.
+
+“Astaghfirullah.....!” pekik Ustadz Khalid (50 tahun, bukan nama sebenarnya) terkaget begitu tutup kerandanya dibuka. Karena, ia menjumpai posisi jenazah terbalik di mana kepala yang seharusnya terletak di sebelah Utara, ternyata terbalik ada di sebelah Selatan.
+
+Padahal, ketika berangkat dari rumah duka, semua yakin kalau posisi kepala almarhum ada di bagian depan. Para pelayat lain pun bingung, memandang ke arah Ustadz Khalid.
+“Dibalik saja,“ suruh Ustadz Khalid.
+
+Tiga orang kemudian serempak membetulkan posisi mayat Sumadi, dan dengan segera memutar posisi kaki almarhum ada di sebelah Selatan. Tetapi, begitu mayat mau dimasukkan ke liang lahat, kembali keanehan terjadi. Dengan sendirinya, posisi mayat Sumadi terbalik seperti tadi.
+
+Kejadian itu, tentunya, membuat keluarga almarhum terpukul, terutama istri dan sanak keluarga terdekat. Tapi apa boleh dikata, demikianlah rahasia Ilahi yang harus kita terima, yang bisa dijadikan proses pembelajaran bagi orang-orang yang masih hidup di dunia ini.
+
+“Balik lagi,” pinta Ustadz Khalid, setelah para pelayat bingung dan mulai panik dengan kejadian yang nyaris tidak terduga dan disangka-sangka tersebut.
+
+Tiga orang kemudian serempak membetulkan posisi mayat Sumadi, dan dengan segera memutar posisi kaki almarhum ada di sebelah Selatan. Untung, kali ini tidak ada lagi hal yang janggal sebagaimana kejadian semula. Akhirnya jenazah Sumadi pun segera dimasukkan ke liang lahat.
+Dari cerita atau iktibar ini, saya berharap orang lain bisa mengambil hikmah atau pelajaran yang ada dalam kisah nyata ini, bahwa kita tidak boleh main-main dengan ucapan maupun perbuatan, apalagi pada hari-hari besar Islam seperti hari raya Idul Fitri.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eXh-d1-TMT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1077.5999999999999" y="-729.08545727136436"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KIM-xx-jne">
+            <objects>
+                <viewController id="h7Y-yb-sto" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wki-47-YBA"/>
+                        <viewControllerLayoutGuide type="bottom" id="idj-jQ-6PS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LLO-gA-1M7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="xWo-jW-ny4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M9K-8W-6e4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Pembunuh 100 orang" id="DMK-Eu-UyE">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="JHj-2N-o7i">
+                                            <connections>
+                                                <segue destination="BXT-5Y-8gs" kind="modal" id="d6M-YA-iUa"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZv-Wc-pxT">
+                                <rect key="frame" x="8" y="56" width="359" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Dalam sebuah hadits yang diriwayatkan oleh Bukhari dan Muslim dikisahkan bahwa dahulu ada seorang lelaki yang telah membunuh 99 orang.
+Lelaki ini telah berlumuran darah, jari jemarinya, pakaiannya, tangan dan pedangnya semuanya basah oleh darah.
+
+Lelaki pelaku kejahatan ini telah melumuri dirinya dengan darah jiwa yang diharamkan oleh Allah membunuhnya serta mencabut nyawa mereka.
+Sesudah dirinya berlumuran dengan kejahatan dan dosa besar ini, dia menyadari kesalahannya.
+
+Maka keluarlah ia dengan pakaian yang berlumuran darah, sedang pedangnya masih meneteskan darah segar dan jari jemarinya belepotan darah juga.
+Ia datang bagaikan seorang yang mabuk, gelisah, ketakutan seraya bertanya-tanya kepada semua orang,
+"Apakah aku masih bisa diampuni?"
+
+Orang-orang berkata,
+"Kami akan menunjukkanmu kepada seorang rahib yang tinggal di kuilnya, maka sebaiknya kamu pergi ke sana dan tanyakanlah kepadanya apakah dirimu masih bisa diampuni."
+
+Dia menyadari bahwa tiada yang dapat memberi fatwa dalam masalah ini, kecuali hanya orang-orang yang ahli dalam hukum Allah.
+Ia pun pergi ke sana, ke tempat rahib itu, seorang ahli ibadah dari kalangan kaum Bani Israil.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7p6-DX-nb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1985" y="-770"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mud-H8-no5">
+            <objects>
+                <viewController id="eMM-Ap-cy2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="REC-8c-0sr"/>
+                        <viewControllerLayoutGuide type="bottom" id="8wQ-YG-zfi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3da-eV-QFp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dYg-fh-IfM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Zo-ah-ABy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="kisah Pencuri yang Tercuri" id="2QE-2b-Fit">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Ylf-eq-WHw">
+                                            <connections>
+                                                <segue destination="BXT-5Y-8gs" kind="modal" id="dgq-F8-IFq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GxI-nF-ZLb">
+                                <rect key="frame" x="8" y="56" width="359" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Disebutkan bahwa seorang pencuri memanjat tembok rumah Malik bin Dinar, lalu masuk menyelinap, tetapi ia tidak menemukan apa pun yang dapat ia ambil. Sementara itu, saat itu tuan rumah sedang khusyu` shalat segera memperpendeka shalatnya karena merasa terganggu
+
+Ketika ia tahu bahwa ada orang lain di rumahnya, Malik bin Dinar menyapanya dengan ucapan salam, lalu berkata, “Semoga Allah memberimu tobat, engkau memasuki rumahku, tetapi tidak menemukan sesuatu yang dapat engkau ambil. Namun, aku tidak akan membiarkan engkau keluar sia-sia”
+
+Malik bin Dinar kemudian membawakan bejana penuh dengan air dan berkata, “Ambillah air wudu, lalu lakukan shalat dua rakaat, nanti engkau akan membawa sesuatu yang lebih baik daripada yang engkau cari di rumah ini”Mendengar penuturan tuan rumah yang menyambutnya dengan tulus serta tidak menuntutnya, si pencuri pun merasa terharu ketika ia ditawari untuk shalat. Ia pun mengambil air wudu, lalu melakukan shalat dua rakaat. Ia merasakan getaran jiwa yang luar biasa. Setelah itu ia meminta izin kepada tuan rumah untuk menambah shalatnya dua rakat lagi. Malik bin Dinar pun mengizinkannya dengan senang hati.
+
+Namun, ternyata pencuri itu meneruskan shalatnya hingga pagi hari. Kemudian Malik bin Dinar mengizinkannya untuk pulang. Akan tetapi, pencuri itu memilih untuk tetap tinggal seraya berkata, “Tuanku, apakah engkau berkenan jika aku tinggal di sini bersamamu karena aku telah berniat puasa hari ini?”
+
+“Tentu, aku senang mendengarnya. Tinggallah di sini selama engkau mau,” jawab Malik bin Dinar. Pencuri itu pun tinggal di rumahnya selama berhari-hari dengan berpuasa dan melakukan shalat malam.
+
+Ketika hendak pulang, pencuri itu berkata, “Wahai tuangku, aku berniat untuk bertobat”
+
+“Itu di tangan Allah Azza wa Jalla,” sambut Malik bin Dinar. Ia kemudian benar-benar bertaubat.
+
+Dalam perjalanan pulang, ia bertemu dengan salah seorang pencuri yang ia kenal baik, lalu ditanya, “Aku pikir engkau memperoleh harta karun”
+
+Ia menjawab, “Saudaraku, aku bertemu dengan Malik bin Dinar ketika aku masuk menyelinap ke dalam rumahnya. Aku hendak mencurinya, tetapi ternyata ia yang mencuriku. Kini aku telah bertaubat kepada Allah Azza wa Jalla” tandasnya.
+</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zDF-4q-Uue" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2823.1999999999998" y="-749.7751124437782"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Moslem_Story" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zNZ-YO-crI">
+                                <rect key="frame" x="0.0" y="307" width="375" height="360"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="353" id="2P1-qb-OMm"/>
+                                    <constraint firstAttribute="width" secondItem="zNZ-YO-crI" secondAttribute="height" multiplier="375:353" id="3Wx-YO-3Gw"/>
+                                    <constraint firstAttribute="width" constant="375" id="LhH-pr-AM6"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="Screen Shot 2017-09-21 at 2.51.11 PM.png"/>
+                                <connections>
+                                    <segue destination="BXT-5Y-8gs" kind="modal" id="VxE-Zv-XDx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylq-1Z-G18">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="318"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ylq-1Z-G18" secondAttribute="height" multiplier="375:298" id="27Y-dS-mcP"/>
+                                    <constraint firstAttribute="height" constant="298" id="BFw-Ee-E1G"/>
+                                    <constraint firstAttribute="width" constant="375" id="E5Y-lK-syz"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="Screen Shot 2017-09-21 at 2.49.24 PM.png"/>
+                                <connections>
+                                    <segue destination="9Ao-W9-Akr" kind="modal" id="Wri-qt-jX1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCR-Qr-Xiu">
+                                <rect key="frame" x="130" y="629" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="About Developer"/>
+                                <connections>
+                                    <segue destination="ugP-SU-jrc" kind="modal" id="M22-8u-3Ha"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ylq-1Z-G18" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="22a-dq-RN8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ylq-1Z-G18" secondAttribute="bottom" constant="349" id="Mgc-5k-mKw"/>
+                            <constraint firstAttribute="trailing" secondItem="zNZ-YO-crI" secondAttribute="trailing" id="NZJ-tG-Zbu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zNZ-YO-crI" secondAttribute="bottom" id="X8i-oE-h38"/>
+                            <constraint firstAttribute="trailing" secondItem="Ylq-1Z-G18" secondAttribute="trailing" id="ZmC-wt-Tq7"/>
+                            <constraint firstItem="Ylq-1Z-G18" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="c6T-WP-zkD"/>
+                            <constraint firstItem="zNZ-YO-crI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dkq-iN-aVV"/>
+                            <constraint firstItem="zNZ-YO-crI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="294" id="ory-DP-B36"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="143.47826086956522"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DeH-eQ-zTj">
+            <objects>
+                <viewController id="ugP-SU-jrc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tn3-Eo-dBH"/>
+                        <viewControllerLayoutGuide type="bottom" id="G6L-Y7-IjG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4PE-7X-wus">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ASda.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qR0-DG-oSi">
+                                <rect key="frame" x="0.0" y="20" width="375" height="665"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WwA-bF-3tJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="About developer" id="AZt-o9-tuU">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="4KT-4U-cuj">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="Oqc-ZM-wqK"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eTQ-EF-zZg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-604" y="783.95802098950526"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qdk-gI-D1I">
+            <objects>
+                <viewController id="mOI-ex-xCS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8rO-2e-FVv"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ib-wO-gfU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gio-4m-nZJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="crf-Bt-XVj">
+                                <rect key="frame" x="-1" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hYO-Gm-6dq">
+                                <rect key="frame" x="-1" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title=" Kisah Pemuda Yang Alim" id="ISZ-bj-FVf">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Pux-kf-Vab">
+                                            <connections>
+                                                <segue destination="9Ao-W9-Akr" kind="modal" id="en9-xs-A6a"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xz8-nA-ped">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99037963149999997" green="0.7556163669" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Sebuah kisah dari seorang pemuda, salah satu dari pemuda muslim di Amerika, pemuda ini berasal dari Maroko, dia adalah pemuda Maroko yang sangat miskin. Dalam sebuah kunjungan, saya menanyakan tentangnya.  Pemuda ini berusia sekitar 24 atau 25 tahun. Mereka menjawab: MasyaAlloh, dia sekarang dalam kondisi baik, maka saya bertanya apa yang terjadi, mereka menjawab: dia kini menjadi seorang jutawan. Saya pun bertanya: jutawan? Apakah dia berjudi atau melakukan sesuatu?. Mereka menjawab: “Tidak, dia tidak melakukakannya”. Lalu apa yang telah terjadi??
+
+Subhanalloh, suatu hari dia berada dalam sebuah lift di salah satu gedung  bertingkat, dan dengan kehendak Alloh dalam elevator tersebut ada banyak orang didalamnya. Lalu semua orang keluar satu persatu hingga tinggallah hanya si pemuda tadi dengan seorang wanita Amerika yang sangat cantik, kemudian lift itupun bergerak ke atas hingga beberapa lantai. Pemuda tersebut tetap menatap lantai lift. (Subhanalloh). Disana hanya ada si pemuda dan si wanita tersebut, tapi dia tidak menatapnya sekalipun. Wanita itu cantik… yang itu merupakan fitnah yang kuat…, dan dia tidak pernah menatap wanita itu. Wanita itu (ketika mereka benar-benar berdua saat itu) merasa takut, karena khawatir mungkin saja akan diperkosa, tapi pemuda tersebut tidak menatapnya sama sekali. Wanita itu kemudian penasaran terus melihat gerak-gerik dan bagaimana dia tidak menatapnya. Dia merasa bingung dan heran. Wanita itu tapi tetap merasa sangat takut, maka sampailah mereka dilantai dimana pemuda tersebut keluar, maka dia pun keluar dari lift. Wanita tersebut mengikutinya dan memberhentikan si pemuda (pemuda tersebut di karuniai bahasa inggris yang lancar dan wajah yang bercahaya).
+
+Wanita tersebut bertanya kepada si pemuda: “Apakah aku tidak cantik???”
+
+Dia menjawab: “saya tidak tahu!! Saya tidak melihat kearahmu”
+
+Wanita tersebut berkata: “mengapa? Mengapa kau tidak menatapku?! Apa aku tidak cantik??!!”
+
+Pemuda itu menjawab: “agamaku melarangku dari hal itu”
+
+(subhanalloh)
+
+Wanita itu kemudian bertanya lagi kepada si Pemuda: “mengapa kau tidak mencoba mencium atau memperkosa(ku)?! ” (Naudzubillah)
+
+Pemuda itu menjawab: “tidak,, saya berusaha untuk berlindung kepada Alloh, saya takut pada Alloh”
+
+Wanita itu kemudian bertanya: dimana Alloh?? Dimana Alloh yang begitu kau takuti itu?
+
+Kemudian pemuda itu mulai menjelaskan beberapa kalimat tentang islam dan tauhid.
+
+Wanita itu berkata: Islamkah yang melarangmu dari menatapku, tidak membiarkanmu melakukan tindakan-tindakan yang membahayakan?”
+
+Dia berkata: “ya”. Dan dia kemudian menjelaskan kepadanya.
+
+Wanita itu kemudian berkata: “maukah kau menikah denganku??”
+
+Dia berkata: “saya seorang muslim, apa agamamu??”
+
+Wanita itu berkata: “saya bukan seorang muslim”
+
+Dia berkata: “hal ini tidak diperbolehkan”
+
+Wanita itu berkata: “jika aku masuk kedalam agamamu, maukah kau menikah denganku??”
+
+Dia berkata: “ya”
+
+Wanita itu berkata: “apa yang harus aku lakukan??”
+
+Dia berkata: “lakukan ini dan ini (sambil memberi saran)”
+
+Maka Alloh menjadikan laki-laki tersebut sebagai sebab wanita itu masuk islam, hanya dengan menundukkan pandangan. Ketahuilah dia hanya menundukkan pandangannya. Akankah para pemuda kita berpikiran seperti itu?? Suatu hal yang sangat jarang terjadi. Salah satu ajaran yang sangat berharga, dan hal ini mungkin sulit terjadi pada kita.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="21" name="MarkerFelt-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EsT-kc-QWK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365.60000000000002" y="913.49325337331345"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Bgb-2J-SAY">
+            <objects>
+                <viewController id="1mU-rp-Egi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6WI-sb-jeo"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cmo-2M-MKb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J3d-qg-UUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="YlX-Jf-4CT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Prh-nn-LEx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Dosen Dan Mahasiswa" id="D89-jm-GF0">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="QGQ-Qm-9qL">
+                                            <connections>
+                                                <segue destination="9Ao-W9-Akr" kind="modal" id="NgE-LL-HFM"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PyG-lU-3CA">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99037963149999997" green="0.7556163669" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Suatu hari salah seorang dosen yang begelar doktor masuk ke salah satu ruang mahasiswa, yang kebetulan mata kuliah saat itu adalah tentang siroh Nabi saw. Untuk menguji wawasan atau pengetahuan mahasiswa tentang siroh Nabi saw, sang dosen mengajukan satu pertanyaan yang sangat simple kepada mereka yang saat itu berjumlah empat puluh mahasiswa.
+“Sebutkan empat saja dari istri Nabi saw ”, kata sang dosen. Spontan salah seorang dari mereka mengacungkan tangan dan menjawab, Khadijah ya syaikh, bagus jawab syaikh sambil menghitung dengan jemarinya, lantas seorang mahasiswa lain pun memberi jawaban setalah mengangkat tangan, Aisyah ya syaikh, bagus, mumtaz, kata syaikh.
+ 
+Lalu tiba-tiba semua mahasiswa terdiam, ya, empat puluh orang mahasiswa diam seribu bahasa, lantas sang dosen mulai menatapi mereka sambil mengulang-ulang kata “sungguh aneh” tidakkah kalian mengetahui rosul kalian..? tidakkah kalian mengetahui Ummahatul mukminin (istri-istri Nabi saw) lanjut syaikh.
+Di saat suasana kelas terdiam, tiba-tiba salah seorang diantara mereka berkata, ya syaikh..!! ya,,sahutnya, saya teringat nama salah seorang dari istri Nabi saw katanya, siapa kata syaikh, Aminah jawabnya, Aminah itu ibunya, dia mengira Aminah itu istrinya, itu ibunya tegas syaikh, sang mahasiswa tadi pun terdiam karena malu.
+Mereka kembali terdiam, sang syaikh merasa sedih (melihat realita para mahasiswanya). Salah seorang dari mereka ingin menghilangkan kesedihan dan kekecewaan syaikh seraya berkata, ya syaikh..! aku teringat nama seorang istri Nabi saw, hah siapa tanya syaikh, mahasiswa tadi menjawab Fatimah, spontan sebagian mahasiswa lain tertawa dan sebagian lainnya merasa aneh sedang sebagiannya lagi tak ada reaksi apapun karena menyangka jawabannya benar, bahwa Fatimah adalah salah satu dari istri Nabi saw. Fatimah adalah putri Nabi saw tutur syaikh. Sontak sang mahasiswa tersebut diam bahkan semua mahasiswa terdiam.
+Kemudian syaikh bertutur lagi,
+“Sebutkan lima nama pemain salah satu club sepak bola,” saat itu syaikh teringat dengan club korea, tapi syaikh mengira club ini terlalu mudah untuk dijawab, maka syaikh menyebutkan club yang menurutnya agak susah dengan harapan mereka tidak bisa menjawabnya,,, sebutkan diantara pemain bola club brazil? Lanjut syaikh.
+Sungguh menakjubkan ternyata mereka pada ngacung sambil berkata saya,,,saya,,saya,,mulailah nama-nama pemain brazil meluncur dari mulut2 mereka,, Ronaldo….dst, sang syaikh sambil menghitung dengan jarinya, jari tangan kanan habis pindah jari tangan kiri, tangan kiri habis balik lagi ke awal,,ternyata mereka telah menyebutkan lima belas nama pemain.
+ 
+Sang syaikh bertanya, setahu saya pemain setiap club itu cuma 11orang.. kenapa kalian sebutkan 15 pemain…?
+Para mahasiswa menjawab, kami sebutkan pemain inti beserta pemain cadangannya syaikh…
+Yang aneh lagi kata syaikh,,, ketika mereka menyebutkan nama pemain bola itu, saya mengulangnya sambil menghitung dengan jari saya, ketika saya salah dalam pengucapan nama pemain tersebut, mereka teratawa (karena kebodohan sang syaikh terhadap nama pemain bola itu).. dan mereka membenarkan pengucapan ku,,, tegas sang syaikh.
+Benarlah firman Allah: “Tidakkah mereka mengetahui rosul mereka…?”
+Jangan kalian minta maaf……!!
+para mahasiswa melihat wajah syaikh yang terlihat sedih,,, maka mereka meiminta maaf seraya berkata, ya syaikh jangan engkau cela kami, media telah menayangkan tentang mereka sehingga kami menghafalnya.
+Jangan kalian minta maaf, tegas syaikh.. media punya hak untuk menampilkan kabar tentang mereka kehadapan kalian tetapi mereka tidak punya hak untuk mengharuskan kalian mengikuti acara, berita-berita serta menghafal nama-nama mereka, mengingat-ingat kisah2 mereka, menjadikan mereka topic pembicaraan di majlis2 kita….jelas sang syaikh..dst
+Sebagaimana halnya media yang menayangkan berita olahraga, disana juga ada media-media yang menampilkan berita-berita tentang islam dan pengajaran-pengajaran yang baik dan bermanfaat.
+Kenapa kalian tidak bersikap terhadap masalah keislaman seperti kalian bersikap terhadap media olahraga dan internet….!!?? Jangan kalian minta maaf…..tegas sang syaikh.
+Saudaraku fillah…
+Apakah kita seperti mereka…? Apakah kita lebih menghafal nama-nama bintang film  daripada nama-nama para sahabat…? Apakah kita lebih tahu kisah-kisah para artis-artis dari pada kisah para pejuang islam..?
+Setiap kita lebih mengetahui tentang diri kita sendiri…. </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="21" name="MarkerFelt-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8jf-4U-QdK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1165.5999999999999" y="931.48425787106453"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QKP-Nm-32u">
+            <objects>
+                <viewController id="dHp-wy-dSz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oGN-Ki-uRy"/>
+                        <viewControllerLayoutGuide type="bottom" id="h8J-Ne-mQf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cMu-Ux-AqL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Y5J-C4-b3w">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j8Y-nU-mHb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Petani Dan Pengemis" id="TWQ-5O-7gG">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Lcf-K6-WVd">
+                                            <connections>
+                                                <segue destination="9Ao-W9-Akr" kind="modal" id="YCR-Op-YyV"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H8P-Iz-jVc">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">seorang Petani sedang berusaha untuk membawa sekarung Gandum yang diletakkan diatas keledai, namun Gandum itu selelu jatuh. Kemudian dia berpikir, bagaimanakah caranya meletakkan sekarung Gandum itu diatas punggung keledainya agar tidak terjatuh. Sampai pada akhirnya dia menemukan sebuah ide, untuk mengisi sebuah karung lagi dengan Pasir kemudian mengikatnya dengan karung Gandum tersebut. Dengan demikian Gandum tidak lagi terjatuh karena sudah seimbang.
+
+Ternyata baru berjalan sekian kilometer, keledainya kecapean karena beratnya beban. Maka si-Petanipun berpikir untuk mencari tempat beristirahat. Ketika sedang mencari-cari, si-Petani bertemu dengan seorang pengemis. Pengemis itu bertanya kepada si-Petani, “Apa yang dibawa keledaimu? Sang Petani menjawab, “Karung yang satu isinya Gandum, sedangkan yang satunya lagi berisi Pasir, agar seimbang”. 
+
+Lantas pengemis itupun berkata lagi kepadanya, “Kenapa diisi Pasir? Bukankan akan lebih baik jika Gandumnya yang kau bagi dua, sehingga keledaimu tidak kecapean karena beratnya beban”. Si-Petanipun berpikir, betul juga apa yang dikatakan lelaki Pengemis itu. Lantas diapun mengeluarkan Pasir dari karung yang satu, dan membagi dua karung yang penuh berisi Gandum.
+
+Si-petani meneruskan perbincangannya dengan Pengemis itu. Dan dia semakin terkagum-kagum dengan pemikiran si-Pengemis. saking penasarannya maka ia pun mengomentari si-Pengemis. “Anda ini pintar, pemikiran anda sungguh luar biasa, tetapi kenapa Anda menjadi seorang Pengemis?”.
+
+Pengemis itupun menjawab, ”Itulah, karena aku terus memikirkan banyak hal sampai-sampai aku tidak sempat melakukan apa-apa”. Setelah pertanyaannya dijawab oleh si-Pengemis tersebut, sambil berpikir kebingungan Si-Petani itupun bergegas meninggalkan si-Pengemis untuk melanjutkan perjalananya.
+
+Melakukan sesuatu tanpa berpikir, akan menyusahkan diri sendiri. Tapi hanya berpikir saja itupun tidak cukup, jika tidak di-iringi dengan aksi </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="21" name="MarkerFelt-Thin"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryP-LL-8Pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1912.8" y="882.90854572713647"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="b64-Aa-h3e">
+            <objects>
+                <viewController id="SrM-Sg-5cv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qiz-c9-fEt"/>
+                        <viewControllerLayoutGuide type="bottom" id="eod-Bh-JRD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZQU-bB-EgS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="rpK-co-NV7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KpK-5E-SaK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Kisah Karyawan Bank" id="Fb1-vk-ai7">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="fec-Ex-tau">
+                                            <connections>
+                                                <segue destination="9Ao-W9-Akr" kind="modal" id="sPe-yO-Uwl"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nVa-q8-VKi">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Tekadku sudah bulat: keluar dari bank syariah tempatku bekerja, dan kini aku di ruangan atasanku untuk menyerahkan surat pengunduranku. Aku tidak peduli lagi ketika atasanku mencoba mempengaruhiku agar aku kembali berpikir ulang. Alhamdulillah. Permohonan pengunduranku, yang kuajukan tiga bulan sebelumnya, akhirnya disetujui. Per November 2008 aku secara resmi resign dari tempat kerjaku.
+
+Bekerja di bank merupakan keinginan banyak anak muda. Termasuk aku. Aku memilih bekerja di bank syariah, antara lain karena berharap mendapatkan harta barokah, halal, dan juga bisa berdakwah, mengedukasi umat mengenai pentingnya mencari harta yang halal dan betapa bahaya dan besarnya dosa riba. Tapi aku memilih pindah karena yang kuimpikan tidak sesuai dengan kenyataan.
+
+“Kamu jangan gegabah, Mir. Kenapa kamu malah resign. Saya nilai, kinerja kamu bagus. Kita di sini kan untuk berdakwah,” kata atasanku ketika aku menghadapnya untuk menyerahkan surat permohonanku.
+
+Berdakwah? Apa yang kualami sungguh berbeda dengan yang dia katakan. Aku mencoba melakukan hal-hal kecil di kantorku yang kuyakini kebenarannya. Meja makan di kantor kupisahkan. Yang untuk pegawai pria sendiri. Terpisah dengan meja makan pegawai perempuan. Tapi meja-meja makan itu dikembalikan ke posisi semula. Di kantorku ada lebih dari satu toilet. Aku mengusulkan agar satu toilet khusus untuk karyawati dan toilet lainnya untuk karyawan. Tapi aku malah dicemooh.
+
+Aku pun mencoba menyampaikan hal-hal yang lebih prinsip. Bukan sekadar hal-hal remeh itu. Misalnya, aku pernah mengingatkan atasanku, dalam sebuah briefing pagi, bahwa hadis yang ia sampaikan itu lemah, sebagaimana pernah kubaca. Namun yang kusampaikan menjadi bahan tertawaan.
+
+Aku pun pernah mengingatkan mengenai perlaku yang menurutku keliruannya sudah keterlaluan. Suatu hari aku mengikuti kegiatan outbond yang diselenggarakan oleh kantor pusat dan diikuti oleh karyawan berbagai kantor cabang. Salah satu kegiatan dalam pelatihan itu, trainer mengharuskan kami bergendongan dan berpelukan. Bukan sejenis, tetapi dengan lawan jenis. Aku menyampaikan protes. Tapi tanggapan yang kuterima membuat hatiku sakit.
+
+“Tadi pagi saya dikritik oleh Amir. Katanya haram bersentuhan laki dan wanita. Walaupun prianya di sebelah tembok dan wanitanya di sisi yang lain, kalau hati kotor, ya tetap aja kotor,” kata direktur sumberdaya manusia bank tempat kerjaku, sembari tersenyum.
+
+Aku merasa senyumnya itu mentertawaiku. Seakan aku anak ingusan yang tidak tahu sedikit pun mengenai agama Islam.
+
+Aku mencoba bersabar. Aku membatin, apakah mereka tidak pernah belajar agama Islam? Allahu’alam.
+
+Menurutku, itu belum seberapa dibandingkan apa yang kualami kemudian dalam sebuah pelatihan lainnya. Seorang trainer, yang menurutku paham mengenai syariat Islam, dalam sebuah pelatihan yang kuikuti, menyampaikan sebuah permakluman yang menurutku sudah keterlaluan. Ia menerangkan, sesungguhnya kita belum bisa lepas dari sistem riba. Aku heran, mengapa mereka yang di bertugas di kantor pusat bisa berkata seperti itu.
+
+Hal serupa terjadi dalam kegiatan pembelajaran mengenai zakat yang kuikuti. Kegiatan ini dinamakan basic training yang harus diikuti oleh setiap karyawan di tempat kerjaku. Kegiatan berlangsung seminggu. Materi disampaikan oleh seorang ustad muda. Di belakang namanya ada “Lc”-nya.
+
+Ia menerangkan mengenai zakat profesi serta berbagai qiyas takaran nishabnya. Sampaikan ia pada pejelasan bahwa menurutnya zakat profesi tidak pernah dilakukan di zaman para sahabat.
+
+Aku tidak menyia-nyiakan waktu saat ia memberi kesempatan kepada para peserta untuk bertanya. Aku bertanya mengenai dasarnya menentukan nishab zakat profesi. Ia menjelaskan panjang lebar. Dan akhirnya sampai pada pertanyaanku mengenai hukum zakat profesi.
+
+Aku tidak terlalu puas dengan jawabannya. Aku kembali bertanya. “Ustad, kalau memang zakat profesi itu perkara baru yang tidak pernah dilakukan para sahabat, lantas kenapa kita harus melakukannya?” Jawaban dia membuatku mengelus dada.
+
+“Inilah dia. Ini adalah ciri-ciri salafi, sedikit-sedikit tanya dalil, sedikit-sedikit bid’ah.”
+
+Aku membatin, “Apa salahnya bertanya dalil? Mengapa pula harus dihubung-hubungkan dengan salafi?“
+
+Pengalaman serupa terjadi pada kegiatan pelatihan lainnya. Materi disampaikan seorang ulama aktivis Majelis Ulama Indonesia. Wajahnya sering menghiasi layar kaca. Seorang peserta bertanya kepadanya. “Pak, mengapa di bank syariah lebih banyak karyawan yang tampaknya awam alias hanya sedikit paham agama?”
+
+“Ya, ini memang sebuah pe-er bagi kita. Ketika kita ingin memperkerjakan orang yang paham agama, akan tetapi meraka tidak paham tentang perbankan, ketika kita memperkerjakan orang paham perbankkan untuk menangani urusan oprasional tetapi ia tidak paham syariat. Untuk itu, demi kelancaran, kita memilih yang labih paham masalah perbankkan.” Begitu kira-kira jawaban yang ia sampaikan.
+
+Aku rasa tidak perlu menceritakan secara detil berbagai penyimpangan operasional perbankan syariah, karena perkara ini telah cukup dibongkar habis dan diterangkan para ustad di berbagai kajian mereka. Aku sendiri pun merasa berbagai hal di bank syariah tempat kubekerja tidak lagi sesuai dengan kebenaran yang kuyakini. Bukan saja kegiatannya cenderung meninggalkan syariat. Namun juga tidak islami.
+
+Menurutku, yang kulihat dan kualami belum seberapa. Masih banyak lagi penyimpangan yang menurutku sudah jauh dari operasional perbankkan syariah yang seharusnya. Bahkan syirik, khurafat dan lainya. Yang melakukan memang oknum. Tapi menurutku, oknum-oknum itu justru yang diberi kepercayaan untuk mengemban salah satu amanah syariah agama yang suci. Innalillahi wainnaa ilaihi roji’uun.
+
+Itulah alasan utamaku untuk memutuskan keluar dari tempat kerjaku.  Oh, ya. Ada kisah kecil lainnya. Ini mengenai bekas atasanku. Ia, yang dipromosikan menjadi kepala cabang di kota lain, suatu hari berkunjung ke bekas kantornya, ya bekas kantorku juga, ya. Kepada rekanku yang masih bekerja di sana, ia mengorek informasi mengenai alasanku resign. Temanku itu menyampaikan kepadaku soal tanggapannya. Katanya, “Amir itu pikirannya terlalu picik. Mana bisa zaman sahabat mau dibawa kepada zaman sekarang.”
+
+Keputusanku membuat dunia kecil di sekitarku bergoyang. Orangtuaku tidak setuju. Tapi akhirnya ia dapat memahami keputusanku. Alhamdulillah. Aku juga diberi istri yang qona’ah. Dia bukan hanya dapat menerima keadaanku. Bahkan  ia mendukung keputusanku. Kami sama-sama bertekad menjauhi harta riba.
+
+Sementara aku mencari pekerjaan lain, kami mencoba melakukan bisnis kecil-kecilan. Berjualan pisang bakar lalu yang kuantar ke warung-warung. Juga mengumpulkan koran-koran bekas untuk dijual. Bahkan aku menjadi tukang ketik, salles handphone sekenan, dan usaha serabutan lain. Aku mencoba mengerjakan apa saja sambil juga melamar kerja.
+
+Tidak mudah. Hari pertama kami berjualan pisang bakar, malamnya aku demam. Warung kami hanya bertahan tiga bulan. Aku tutup karena kehabisan modal. Aku fokus melamar kerja. Tes demi test dan wawancara demi wawacara kulalui. Akhirnya aku diterima bekerja sebagai karyawan tetap perusahaan industri pendukung perusahaan minyak dan gas di luar daerah. Aku meninggalkan istri yang sedang mengandung anak kedua kami selama sebulan untuk mempersiapkan segala keperluan kepindahan kami ke daerah baru. Alhamdulillah, aku masih berkesempatan pulang setiap minggu menemui anak dan istriku. Sekarang, aku dan istriku yang sedang menunggu kelahiran anak ketiga kami.
+
+Orang-orang mengatakan, ini daerah industri. Di tempat baru kami bisa belajar agama lebih baik karena banyak kajian dan para ustad. Istriku pun bekerja menjadi guru di salah satu sekolah Islam. Dia banyak belajar ilmu agama di sana.
+
+Aku ingin mengatakan, tidak semua cerita keluarnya karyawan dari pekerjaan lamanya karena perkara haram lantas mendapatkan pekerjaan baru lebih baik dalam hal penghasilannya. Penghasilanku sekarang tidak seberapa. Jauh lebih kecil ketimbang ketika bekerja di bank syariah. Andaikan seseorang keluar dari perbankkan syariah lalu menjadi jadi lebih kaya, pastilah akan banyak karyawan yang pindah kerja.
+
+Bagiku, ketenangan dan keberkahan-lah yang utama. Jangan takut miskin. Tetaplah bekerja. Biarlah kami miskin harta, tapi kami percaya Allah Subhana wa ta’ala tidak akan pernah menyalahi janjinya. Barang siapa yang meninggalkan sesuatu karena Allah, Allah akan menggantinya dengan yang lebih baik. Dan janji Allah bisa saja terjadi di dunia atau di akhirat,
+
+
+
+Read more http://pengusahamuslim.com/5584-kisah-karyawan-bank-syariah-resign-dari-tempat-kerjanya.html
+
+
+
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="21" name="MarkerFelt-Thin"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QKw-MQ-X1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2628" y="779.46026986506752"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QKX-hW-ulC">
+            <objects>
+                <viewController id="9Ao-W9-Akr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5pe-f9-EDk"/>
+                        <viewControllerLayoutGuide type="bottom" id="7nT-lP-F0i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pGg-ub-08z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxS-0H-EVF">
+                                <rect key="frame" x="-6" y="347" width="196" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2017-09-21 at 2.54.25 PM.png"/>
+                                <connections>
+                                    <segue destination="mOI-ex-xCS" kind="modal" id="4RP-7e-cR8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGe-wG-MUo">
+                                <rect key="frame" x="-6" y="507" width="196" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2017-09-21 at 2.58.18 PM.png"/>
+                                <connections>
+                                    <segue destination="dHp-wy-dSz" kind="modal" id="gGc-gy-4ZG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Rg-5K-cd5">
+                                <rect key="frame" x="192" y="347" width="196" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2017-09-21 at 2.56.54 PM.png"/>
+                                <connections>
+                                    <segue destination="1mU-rp-Egi" kind="modal" id="3Kk-5w-S21"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ze5-DA-TWp">
+                                <rect key="frame" x="0.0" y="1" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Daftar Isi" id="F5V-5H-7Gx">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="bs4-uT-4aD">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="fwP-Qv-7am"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yrf-78-Pai">
+                                <rect key="frame" x="192" y="507" width="196" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2017-09-21 at 2.58.32 PM.png"/>
+                                <connections>
+                                    <segue destination="SrM-Sg-5cv" kind="modal" id="Ylk-OB-7lq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2017-09-21 at 3.00.34 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="G24-lg-0oL">
+                                <rect key="frame" x="0.0" y="45" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YUV-fu-df2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848.79999999999995" y="148.87556221889056"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ihX-UY-D3B">
+            <objects>
+                <viewController id="BXT-5Y-8gs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eZg-E2-9MC"/>
+                        <viewControllerLayoutGuide type="bottom" id="99a-vK-TVa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kIh-Tz-Kpr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2017-09-21 at 4.29.40 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="aIc-eC-Blc">
+                                <rect key="frame" x="0.0" y="36" width="375" height="311"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaL-4X-hrU">
+                                <rect key="frame" x="0.0" y="349" width="196" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2017-09-21 at 4.25.22 PM.png"/>
+                                <connections>
+                                    <segue destination="gd0-gL-bE5" kind="modal" id="oCq-XZ-Y3b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpZ-36-6pU">
+                                <rect key="frame" x="198" y="349" width="196" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2017-09-21 at 4.26.18 PM.png"/>
+                                <connections>
+                                    <segue destination="h7Y-yb-sto" kind="modal" id="MT4-qx-6kz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdv-DC-glH">
+                                <rect key="frame" x="198" y="509" width="196" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2017-09-21 at 4.28.36 PM.png"/>
+                                <connections>
+                                    <segue destination="Nya-JG-v4q" kind="modal" id="yUu-FI-VWd"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BXV-eR-dAY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Daftar Isi" id="flu-xD-jFE">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="I2o-g9-CMf">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="1MC-ZX-UnT"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OY-3W-23v">
+                                <rect key="frame" x="0.0" y="509" width="196" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2017-09-25 at 2.27.19 PM.png"/>
+                                <connections>
+                                    <segue destination="eMM-Ap-cy2" kind="modal" id="Vrk-hP-7dD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hkp-MO-2dG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1599.2" y="156.97151424287858"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ASda.jpg" width="736" height="1377"/>
+        <image name="Screen Shot 2017-09-21 at 2.49.24 PM.png" width="447" height="347"/>
+        <image name="Screen Shot 2017-09-21 at 2.51.11 PM.png" width="446" height="375"/>
+        <image name="Screen Shot 2017-09-21 at 2.54.25 PM.png" width="276" height="240"/>
+        <image name="Screen Shot 2017-09-21 at 2.56.54 PM.png" width="265" height="239"/>
+        <image name="Screen Shot 2017-09-21 at 2.58.18 PM.png" width="280" height="238"/>
+        <image name="Screen Shot 2017-09-21 at 2.58.32 PM.png" width="264" height="238"/>
+        <image name="Screen Shot 2017-09-21 at 3.00.34 PM.png" width="365" height="271"/>
+        <image name="Screen Shot 2017-09-21 at 4.25.22 PM.png" width="280" height="244"/>
+        <image name="Screen Shot 2017-09-21 at 4.26.18 PM.png" width="277" height="243"/>
+        <image name="Screen Shot 2017-09-21 at 4.28.36 PM.png" width="277" height="243"/>
+        <image name="Screen Shot 2017-09-21 at 4.29.40 PM.png" width="562" height="432"/>
+        <image name="Screen Shot 2017-09-25 at 2.27.19 PM.png" width="246" height="275"/>
+        <image name="download.jpeg" width="168" height="300"/>
+        <image name="images.jpeg" width="168" height="300"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="VxE-Zv-XDx"/>
+        <segue reference="Wri-qt-jX1"/>
+        <segue reference="Oqc-ZM-wqK"/>
+    </inferredMetricsTieBreakers>
+</document>
